@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Nav, Navbar, Stack } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const NavbarComp = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div>
@@ -14,7 +16,7 @@ const NavbarComp = () => {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Stack gap={2}>
                                 <Nav className="ms-auto text-end">
-                                    <Nav.Link href="/1">About</Nav.Link>
+                                    <Nav.Link onClick={() => navigate('/about')}>About</Nav.Link>
                                     <Nav.Link href="/2">Projects</Nav.Link>
                                     <Nav.Link href="/3">Services</Nav.Link>
                                     <Nav.Link href="/4">Careers</Nav.Link>
