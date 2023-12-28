@@ -99,6 +99,23 @@ section {
     font-size: 28px;
 }
 
+.careersHome {
+    background: url('../assets/img/bghome2.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.careersHome h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
+}
+
+.careersHome p {
+    color: black;
+    font-weight: 600;
+}
+
 .myFooter {
     background-color: black;
     color: white;
@@ -145,6 +162,10 @@ section {
 
     .servicesListHome {
         font-size: 26px;
+    }
+
+    .careersHome {
+        text-align: center;
     }
 
     .headerFooter h1 {

@@ -120,6 +120,33 @@ const HomeComp = () => {
                     </Row>
                 </Container>
             </section>
+
+            <section className="careersHome">
+                <Container>
+                    <Row>
+                        <Col sm={6}></Col>
+
+                        <Col sm={6}>
+                            <div className="mb-4">
+                                <h1>CAREERS</h1>
+                            </div>
+
+                            <div className="mt-4">
+                                <p>
+                                    We are always looking for skilled construction professionals to join our team. If you think you'd make a good fit, have a look at our open positions, or leave an
+                                    unsolicited application.
+                                </p>
+                            </div>
+
+                            <div className="mt-5 mb-5">
+                                <a href="/#" className="blackBtn">
+                                    Open Positions
+                                </a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
         </>
     );
 };
