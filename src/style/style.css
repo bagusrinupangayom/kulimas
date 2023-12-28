@@ -116,6 +116,24 @@ section {
     font-weight: 600;
 }
 
+.bgAbout {
+    background: url('../assets/img/bgabout1.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.fAboutHeader {
+    padding-top: 8rem;
+}
+
+.fAboutHeader h1 {
+    padding: 0 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
 .myFooter {
     background-color: black;
     color: white;
@@ -166,6 +184,11 @@ section {
 
     .careersHome {
         text-align: center;
+    }
+
+    .fAboutHeader h1 {
+        padding: 0 4px;
+        font-size: 34px;
     }
 
     .headerFooter h1 {

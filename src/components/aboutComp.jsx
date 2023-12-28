@@ -1,8 +1,14 @@
+import { Container } from 'react-bootstrap';
+
 const AboutComp = () => {
     return (
         <>
-            <div>
-                <h1>qwdqwd</h1>
+            <div className="bgAbout">
+                <Container>
+                    <div className="fAboutHeader text-center">
+                        <h1>ABOUT</h1>
+                    </div>
+                </Container>
             </div>
         </>
     );
