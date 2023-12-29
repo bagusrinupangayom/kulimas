@@ -13,12 +13,12 @@ const AboutComp = () => {
                 </Container>
             </div>
 
-            <section>
+            <section className="textAbout">
                 <Container>
                     <div className="mb-4">
                         <Row>
                             <Col sm={4} className="mb-3">
-                                <h2>Kulimas services and history</h2>
+                                <h1>Kulimas services and history</h1>
                             </Col>
 
                             <Col sm={4}>
@@ -37,7 +37,7 @@ const AboutComp = () => {
                         </Row>
                     </div>
 
-                    <div className="mb-5">
+                    <div className="mb-4">
                         <Row>
                             <Col sm={8}>
                                 <Image src={bgAbout2} className="mb-3" fluid />
@@ -51,7 +51,7 @@ const AboutComp = () => {
 
                     <Row>
                         <Col sm={4} className="mb-3">
-                            <h2>Stornoway people and culture</h2>
+                            <h1>Stornoway people and culture</h1>
                         </Col>
 
                         <Col sm={4}>

@@ -134,6 +134,10 @@ section {
     text-shadow: 0.5px 0.5px 2px black;
 }
 
+.textAbout {
+    color: black;
+}
+
 .myFooter {
     background-color: black;
     color: white;
