@@ -186,6 +186,12 @@ section {
         text-align: center;
     }
 
+    .bgAbout {
+        height: 45vh;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
     .fAboutHeader h1 {
         padding: 0 4px;
         font-size: 34px;
