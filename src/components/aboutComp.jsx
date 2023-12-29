@@ -15,39 +15,43 @@ const AboutComp = () => {
 
             <section>
                 <Container>
+                    <div className="mb-4">
+                        <Row>
+                            <Col sm={4} className="mb-3">
+                                <h2>Kulimas services and history</h2>
+                            </Col>
+
+                            <Col sm={4}>
+                                <p>
+                                    Stornoway started as a statement against the sloppy professional standards that dominated the field of construction services 20 years ago. We wanted to set a new,
+                                    high standard and work as consultants, solving our clients' problems.
+                                </p>
+                            </Col>
+
+                            <Col sm={4}>
+                                <p>
+                                    The company quickly grew and cemented itself as the new golden standard in commercial construction. Today we continue to build on that legacy and strive for
+                                    excellence at everything we do.
+                                </p>
+                            </Col>
+                        </Row>
+                    </div>
+
+                    <div className="mb-5">
+                        <Row>
+                            <Col sm={8}>
+                                <Image src={bgAbout2} className="mb-3" fluid />
+                            </Col>
+
+                            <Col sm={4}>
+                                <Image src={bgAbout3} fluid />
+                            </Col>
+                        </Row>
+                    </div>
+
                     <Row>
-                        <Col sm={4}>
-                            <h3>Kulimas services and history</h3>
-                        </Col>
-
-                        <Col sm={4}>
-                            <p>
-                                Stornoway started as a statement against the sloppy professional standards that dominated the field of construction services 20 years ago. We wanted to set a new, high
-                                standard and work as consultants, solving our clients' problems.
-                            </p>
-                        </Col>
-
-                        <Col sm={4}>
-                            <p>
-                                The company quickly grew and cemented itself as the new golden standard in commercial construction. Today we continue to build on that legacy and strive for excellence
-                                at everything we do.
-                            </p>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col sm={8}>
-                            <Image src={bgAbout2} className="mb-3" fluid />
-                        </Col>
-
-                        <Col sm={4}>
-                            <Image src={bgAbout3} fluid />
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col sm={4}>
-                            <h3>Stornoway people and culture</h3>
+                        <Col sm={4} className="mb-3">
+                            <h2>Stornoway people and culture</h2>
                         </Col>
 
                         <Col sm={4}>
