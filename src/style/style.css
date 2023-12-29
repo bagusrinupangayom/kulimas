@@ -138,6 +138,24 @@ section {
     color: black;
 }
 
+.bgProjects {
+    background: url('../assets//img/projectsBg.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.projectsHeader {
+    padding-top: 8rem;
+}
+
+.projectsHeader h1 {
+    padding: 0 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
 .myFooter {
     background-color: black;
     color: white;
@@ -158,6 +176,11 @@ section {
 }
 
 @media (max-width: 576px) {
+    section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
     .fHomeHeader h1 {
         padding: 0 4px;
         font-size: 34px;
@@ -191,12 +214,19 @@ section {
     }
 
     .bgAbout {
-        height: 100vh;
-        background-size: cover;
-        background-repeat: no-repeat;
+        height: 45vh;
     }
 
     .fAboutHeader h1 {
+        padding: 0 4px;
+        font-size: 34px;
+    }
+
+    .bgProjects {
+        height: 45vh;
+    }
+
+    .projectsHeader h1 {
         padding: 0 4px;
         font-size: 34px;
     }
