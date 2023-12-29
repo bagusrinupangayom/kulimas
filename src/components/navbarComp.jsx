@@ -10,14 +10,14 @@ const NavbarComp = () => {
                 <Navbar expand="lg" fixed="top">
                     <Container>
                         <Navbar.Brand>
-                            <Nav.Link href="/">KULIMAS</Nav.Link>
+                            <Nav.Link onClick={() => navigate('/')}>KULIMAS</Nav.Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Stack gap={2}>
                                 <Nav className="ms-auto text-end">
                                     <Nav.Link onClick={() => navigate('/about')}>About</Nav.Link>
-                                    <Nav.Link href="/2">Projects</Nav.Link>
+                                    <Nav.Link onClick={() => navigate('/projects')}>Projects</Nav.Link>
                                     <Nav.Link href="/3">Services</Nav.Link>
                                     <Nav.Link href="/4">Careers</Nav.Link>
                                     <Nav.Link href="/5">Contacts</Nav.Link>
