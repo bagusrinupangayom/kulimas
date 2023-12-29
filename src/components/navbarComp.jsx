@@ -18,7 +18,7 @@ const NavbarComp = () => {
                                 <Nav className="ms-auto text-end">
                                     <Nav.Link onClick={() => navigate('/about')}>About</Nav.Link>
                                     <Nav.Link onClick={() => navigate('/projects')}>Projects</Nav.Link>
-                                    <Nav.Link href="/3">Services</Nav.Link>
+                                    <Nav.Link onClick={() => navigate('/services')}>Services</Nav.Link>
                                     <Nav.Link href="/4">Careers</Nav.Link>
                                     <Nav.Link href="/5">Contacts</Nav.Link>
                                 </Nav>
