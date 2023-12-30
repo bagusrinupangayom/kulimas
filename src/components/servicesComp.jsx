@@ -3,12 +3,12 @@ import { Container } from 'react-bootstrap';
 const ServicesComp = () => {
     return (
         <>
-            <div>
-                <section>
-                    <Container>
+            <div className="bgServices">
+                <Container>
+                    <div className="servicesHeader text-center">
                         <h1>SERVICES</h1>
-                    </Container>
-                </section>
+                    </div>
+                </Container>
             </div>
         </>
     );

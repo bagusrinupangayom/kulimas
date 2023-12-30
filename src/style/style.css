@@ -156,6 +156,24 @@ section {
     text-shadow: 0.5px 0.5px 2px black;
 }
 
+.bgServices {
+    background: url('../assets/img//bgservices1.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.servicesHeader {
+    padding-top: 8rem;
+}
+
+.servicesHeader h1 {
+    padding: 0 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
 .myFooter {
     background-color: black;
     color: white;
