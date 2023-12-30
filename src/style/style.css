@@ -156,8 +156,14 @@ section {
     text-shadow: 0.5px 0.5px 2px black;
 }
 
-.bgServices {
+.bgServicesFirst {
     background: url('../assets/img//bgservices1.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bgServicesSecond {
+    background: url('../assets/img/bgservices2.avif');
     height: 100vh;
     background-size: cover;
 }
@@ -172,6 +178,12 @@ section {
     font-weight: 700;
     color: white;
     text-shadow: 0.5px 0.5px 2px black;
+}
+
+.bgServicesSecond h3 {
+    color: white;
+    padding: 0 12rem;
+    font-weight: 600;
 }
 
 .myFooter {
@@ -247,6 +259,21 @@ section {
     .projectsHeader h1 {
         padding: 0 4px;
         font-size: 34px;
+    }
+
+    .bgServicesFirst {
+        height: 45vh;
+    }
+
+    .servicesHeader h1 {
+        padding: 0 4px;
+        font-size: 34px;
+    }
+
+    .bgServicesSecond h3 {
+        padding: 0 4px;
+        font-size: 34px;
+        text-shadow: 0.5px 0.5px 2px black;
     }
 
     .headerFooter h1 {
