@@ -7,7 +7,7 @@ const NavbarComp = () => {
     return (
         <>
             <div>
-                <Navbar expand="lg" fixed="top">
+                <Navbar expand="lg" fixed="top" bg="light" className="shadow-sm">
                     <Container>
                         <Navbar.Brand>
                             <Nav.Link onClick={() => navigate('/')}>KULIMAS</Nav.Link>
