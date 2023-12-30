@@ -186,6 +186,28 @@ section {
     font-weight: 600;
 }
 
+.bgCareers {
+    background: url('../assets/img/bgcareers1.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.careersHeader {
+    padding-top: 8rem;
+}
+
+.careersHeader h1 {
+    padding: 0 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+.openPositions {
+    color: black;
+}
+
 .myFooter {
     background-color: black;
     color: white;
@@ -274,6 +296,19 @@ section {
         padding: 0 4px;
         font-size: 34px;
         text-shadow: 0.5px 0.5px 2px black;
+    }
+
+    .bgCareers {
+        height: 45vh;
+    }
+
+    .careersHeader h1 {
+        padding: 0 4px;
+        font-size: 34px;
+    }
+
+    .openPositionsHeading h1 {
+        text-align: center;
     }
 
     .headerFooter h1 {
