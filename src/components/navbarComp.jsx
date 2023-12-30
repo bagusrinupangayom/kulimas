@@ -12,7 +12,7 @@ const NavbarComp = () => {
                         <Navbar.Brand>
                             <Nav.Link onClick={() => navigate('/')}>KULIMAS</Nav.Link>
                         </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Stack gap={2}>
                                 <Nav className="ms-auto text-end">
