@@ -157,7 +157,7 @@ section {
 }
 
 .bgServicesFirst {
-    background: url('../assets/img//bgservices1.avif');
+    background: url('../assets/img/bgservices1.avif');
     height: 100vh;
     background-size: cover;
 }
@@ -205,6 +205,28 @@ section {
 }
 
 .openPositions {
+    color: black;
+}
+
+.bgContacts {
+    background: url('../assets/img/bgcontacts1.avif');
+    height: 100vh;
+    background-size: cover;
+}
+
+.contactsHeader {
+    padding-top: 8rem;
+}
+
+.contactsHeader h1 {
+    padding: 0 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+.contentContacts {
     color: black;
 }
 
@@ -308,6 +330,19 @@ section {
     }
 
     .openPositionsHeading h1 {
+        text-align: center;
+    }
+
+    .bgContacts {
+        height: 45vh;
+    }
+
+    .contactsHeader h1 {
+        padding: 0 4px;
+        font-size: 34px;
+    }
+
+    .contentContacts {
         text-align: center;
     }
 
