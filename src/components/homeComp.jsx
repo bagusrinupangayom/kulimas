@@ -9,7 +9,7 @@ const HomeComp = () => {
             <div className="fHomeBg">
                 <Container>
                     <div className="fHomeHeader text-center">
-                        <h1>BERSAMA KULIMAS PASTI BERKUALITAS</h1>
+                        <h1>QUALITY YOU CAN TRUST</h1>
                     </div>
 
                     <div className="mt-5 pt-3 text-center">
