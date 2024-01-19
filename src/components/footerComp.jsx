@@ -26,6 +26,9 @@ const FooterComp = () => {
                     </Row>
                 </Container>
             </div>
+            <div className="mx-auto pt-3">
+                <p className="text-center fw-bold">built by Bagus Rinu</p>
+            </div>
         </>
     );
 };
